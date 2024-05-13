@@ -1,0 +1,263 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(210, 'b185fae9-4cb0-446e-9cb4-b7a2bf9ad668', 'student1', 'eGKWDaaBiVkM0LDxoOyg8K8ihlK6RP+OLYtetLFwvBfU0bPmG786WMA35D9O8GNsZHg4bufLTUVYqu9AvKOfVZxrDodkDH7UTHQU4PAfOMeUejrXElfL3usn/u1GBmHb2iyGiOrfMmpwJK/74Zal/YrjBY+fZSN1A8UC6C+h5Hs=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 4, 29, 10, 57, 36), None, datetime.datetime(2024, 4, 29, 10, 57, 36), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(213, 'ad935481-59e4-4186-ae38-4dadce8e4538', 'student1', 'Bs/a/Gdp7NGqynwcIbORHf8zfpM0AWZYrYUNUSc8JqgRw6xp/OXYYH6lE3FaZIB5YZwgjgYxrmlBbwia2cIFaOA372gBDTel9wNt9fB7V5pHv4A3mPPxhPP+r1TWCbehd75Nv0Iq9/Eh/8pt4WAAepo4Pip5k7fYviMSW1klQY0=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 4, 29, 11, 7, 57), None, datetime.datetime(2024, 4, 29, 11, 7, 57), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(222, 'd0eb8ecd-9c40-4cf9-ada5-d68d68601163', 'student1', 'T1NF15jpL9eBtjG16Pi2ZBdwtAd0EqcIkaoekJZLbD0cDAeIkuqlwPL3UfOeF8gPjeUhUSmgoGqNO9RWVCdSfHSuKb7plnYkvi/KFAsdGCykLse7N8F6oFUHFnZIm3h73F+0VRhMTrj1EIjYqrw052Ua4FsOpcqeih7hUHzBerQ=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 8, 56, 40), None, datetime.datetime(2024, 5, 6, 8, 56, 40), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(223, '12fb9381-84a8-4aca-a13d-dafe375f2bf3', 'student1', 'il8aGkfZwf3FcCUKWYDFkx0+ZJm2TRhEI5LAWlHyMY9KkcyoX/L1KXhsXYvDXug257N3riuGyeWe87Gs64V8Vl5+d3XAm2jsLsj+Hd7RD3Mz3wwzzMuTnvP1+F3EJi7DbT0lusmga5cwuY20wP1Ek3Vnaoepd2fs09JCFZVTFqE=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 8, 56, 41), None, datetime.datetime(2024, 5, 6, 8, 56, 41), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(224, 'dbda35b4-6b26-4164-8665-7b60dd5f5279', 'student1', 'onsW8DiVrI9u49Vs6Omjx1bgP+svLF9Yz0PQx/g2gfq02Tnu8zzAYCVPOCuSqMrOn2EWCU+8OSFvRi1s8Il96PtIo3FppZJ51MZuoLyMpJ16sclKCfLPKwUaJO3DNYT5HPy1sbB6f5hWGeUkSiQeP+Cc/KJ4i1FRCK2sNr1JiAQ=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 8, 56, 56), None, datetime.datetime(2024, 5, 6, 8, 56, 56), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(226, '68d0843e-cdfc-48d7-8d05-1ddc4fc0e205', 'student1', 'V1VhX2rzWs4bPS0TxhhspItaAE9vfTOHYXkUOHNQfFofVsihUsdDLFuWGRsaQ+1t7gt2ZD3Hc+JaofKe01ZzkmsrooSh2I8rFYzln+ZuM9OBzLz/OiZeMuT4HBnxkK5J/qRGeB0UKOHIyiDJpTfqEczp7vTKxDcJpCZXUkPCWvM=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 8, 57, 19), None, datetime.datetime(2024, 5, 6, 8, 57, 19), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(227, '5a6a5a5c-2d2d-4eb6-9c79-9c3b4016637f', 'student1', 'oRGxY+h5qrG+Zb6yJtlKhaXpmFsdOc6lgraCPNNACr4aLd6IM0Wo3KwIR5tnclC9LI0ejEozv26qOP9GrMrC3dol8QPlpjLUE7Ws2K54Thi+wmZXhH+NhHdAz19kx0QMNuVwWuJBqAuh+LLSAoGEAVdZeSwlIQYrB+1UcMXIUn8=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 8, 57, 34), None, datetime.datetime(2024, 5, 6, 8, 57, 34), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(229, '9068616e-e29e-48a7-886e-512308bb33b1', 'student1', 'K02AJlxsP9tMgjfFaxEGCsm9r7cHsP9p3aQNzm4QIi1ryc3q6h/6aLKGgv51xAPFKOWsw2IfZpl8XmSbBgiBObv4XAbrzjxhuqoxsM1SW60KAu5ukNm8JriVFa+UOV/JDPaEGvUl8WsGY0csZDR3+IJYRmhZWvucJRHyJGUc5T8=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 8, 58, 3), None, datetime.datetime(2024, 5, 6, 8, 58, 3), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(230, 'd42330b3-4462-4e65-94c6-00665904a76e', 'student1', 'Rr8r7XhlB4NZ+g8xrpXxDtU0EHr4kYkMnsCD0+omylRtFEFvPK/N4I+ajWPL4aswwwyjvORvzTiEnBD6sIrWgl4u7GRleNiUUL/cgSy9L3NhpN1BnpWFaTYlVY7XLpUUHwnwpaWASiG6EdYdbRUB3gYt/X4MGKc5NFmNfjwd0kI=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 8, 58, 11), None, datetime.datetime(2024, 5, 6, 8, 58, 11), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(234, '5d307098-ec73-4348-a034-9a64daadfc24', 'student1', 'JRO6b5U8nBWMhEG1/G50/vHs4JXaFKrPoSP3bsYTjSUgBPRpA986sswEQsDgj18/a4UK98nlqyExMwh6y39KdffIwwUISYPXtDgTzurswPzSxEAgjZ1H1xYC47cIgIuee22sRMM2vj7XPVxguAm9MefN2pnz7Lo5oa+7HdO+Gz0=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 9, 1, 58), None, datetime.datetime(2024, 5, 6, 9, 1, 58), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(235, '2cca11a8-6bdb-4882-9165-c79a8968459f', 'student1', 'pHvxQqKUja4naQe4D0GRSgDKr+a4iJ71hhDFCs32ERTKBDhW3bsSWA0V1eesLgXH7Xr0IiourcQ51y3iEhD1I6+jryimGnW2dwBzY9i0vfzQfbtqEaWaBDPd6PcapqckrcPUECtTxKK7J/hxQOWIHWoPgqZNjE1hjxaWVsoFFIk=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 9, 57, 49), None, datetime.datetime(2024, 5, 6, 9, 57, 49), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(236, '9ab03e1a-0b92-433b-a8e1-9e52d9f9b401', 'student1', 'NtEWWG6X5Iv9GNM8Mp4dILMAPPT3IcgZAWxE4Sl0br1YLyBre6BGKeNpZQNmu9idMpEWKyGDeS6NwGmRI8yZyowkZQoAKD45nqNNK+O/Y6EChhyEjQk3SAGtV8ExLWONnbcZhD+aWIpcCvyMFq25ettj6xBwETS/HffwMqTl4B8=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 9, 57, 49), None, datetime.datetime(2024, 5, 6, 9, 57, 49), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(237, 'fc9787cc-62a0-4fa1-ac9a-80e4be73e694', 'student1', 'ivvpnwTs1vDbPWB11qhW95AqIA4JBi2JsYzhSGSGKQpv3OQHNvhEh82Jr9RKWIkSNsgJU1bQXZCTYzY9/wNN9Qb0SMRgMIrBp9hqlGU1Qts0rNW9jhzFpSvTUblYMQug+XqXa+hFmAE9COVdrAQfopDrPy15KXfCHOn7mFidVwY=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 9, 57, 59), None, datetime.datetime(2024, 5, 6, 9, 57, 59), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(238, '60573837-0728-4f14-b4e5-ea02bfa413fc', 'student1', 'GjJTPBzKh5XH2b89QOO22OQ6NC3EsWBTannFARvlv6A4hGT/ohJHLrqyNaloNTq5xBrSW1ztLeTbqDEllVouIFrWWPazk/cFEEWx6Q0iHXAKnaomDIEahAt3FFFv/MKbUYip/x6/e3QjYT/huNvefSXlpSR03dAQeZlqzQqY0eA=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 9, 57, 59), None, datetime.datetime(2024, 5, 6, 9, 57, 59), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(239, 'a9c21248-1b4f-4f24-81ba-bbc70e4d699f', 'student1', 'bimI9ihvPKlX+QbEXL5vgnrZzCuxFuKRanvKy4zjL6lRkiqG+/NWaOCXKAOOP5f3nP1nWPMS51tEudPypCdMGxxGmJEIG+4HyiwS8+pHy/VJrwMQSEsNt9AAl56pVjtSCwo+7M1IzIMO2nY+uBZh8RzOK0wdhHiH3rkCfSz1Us4=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 9, 58, 18), None, datetime.datetime(2024, 5, 6, 9, 58, 18), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(241, 'b23cb7e6-154a-4550-a9ba-bf9353b1f959', 'student1', 'i55t3+AGPtqICGnn/U46n5l0ReLOTZVOUo2vy7/8QY+KclU+Qi5TzHpIP2Gacma5wcj5P5f/l2R5ruwsJbZe7mWVNbCS8C/H5Rg52OUOsnatppsGPZP4qFh4M8utigTse2GEp8ZOT37zuUCp1gI8NHBylNArBwQkxMFXkgqaFUs=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 9, 58, 30), None, datetime.datetime(2024, 5, 6, 9, 58, 30), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:root:select * from t_user where user_name ='{'userName': 'student1', 'password': '123456', 'userLevel': 6}'
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(244, 'a5f9c1ed-5df8-43c3-ada8-273cd4d5e9b6', 'student1', 'IsssAt5V0nQ8z/aOmTBhiyxQKL8KVstx4uCcMoFEXuHFfRNAXLi2JFcQc7fPYguXSAZEfLj4S47r2b2Gcib+T1HX80rvYAJynlOCe/onwqq0F3N5VHp0c16i54x25WHw5o/owJfkgn89iXKsvSdOGuCa2+yQ8ZGt6aXn0fA1Z1Y=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 10, 2, 3), None, datetime.datetime(2024, 5, 6, 10, 2, 3), b'\x00', None)
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(244, 'a5f9c1ed-5df8-43c3-ada8-273cd4d5e9b6', 'student1', 'IsssAt5V0nQ8z/aOmTBhiyxQKL8KVstx4uCcMoFEXuHFfRNAXLi2JFcQc7fPYguXSAZEfLj4S47r2b2Gcib+T1HX80rvYAJynlOCe/onwqq0F3N5VHp0c16i54x25WHw5o/owJfkgn89iXKsvSdOGuCa2+yQ8ZGt6aXn0fA1Z1Y=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 6, 10, 2, 3), None, datetime.datetime(2024, 5, 6, 10, 2, 3), b'\x00', None)

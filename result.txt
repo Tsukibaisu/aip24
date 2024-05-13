@@ -1,0 +1,30 @@
+test_login_01 (testlogin.MyTestCase) ... FAIL
+test_reg_ok (test_xzs_zuce.MyTestCase) ... ok
+test_reg_err (test_xzs_zuce.MyTestCase) ... FAIL
+
+======================================================================
+FAIL: test_login_01 (testlogin.MyTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\aip24\testlogin.py", line 9, in test_login_01
+    self.assertIn("成功",t.text)
+AssertionError: '成功' not found in '{"code":402,"message":"用户名或密码错误","response":null}'
+
+======================================================================
+FAIL: test_reg_err (test_xzs_zuce.MyTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\aip24\test_xzs_zuce.py", line 34, in test_reg_err
+    self.assertDictEqual(r.json(), result)
+AssertionError: {'code': 1, 'message': '成功', 'response': None} != {'code': 2, 'message': '用户已存在', 'response': None}
+- {'code': 1, 'message': '成功', 'response': None}
+?          ^              ^^
+
++ {'code': 2, 'message': '用户已存在', 'response': None}
+?          ^              ^^^^^
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.877s
+
+FAILED (failures=2)

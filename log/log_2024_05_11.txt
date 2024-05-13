@@ -1,0 +1,107 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 196
+INFO:root:测试用例：login_ok
+INFO:root:url:http://127.0.0.1:8000/api/user/login
+INFO:root:请求参数：{"userName": "student1", "password": "123456", "remember": false}
+INFO:root:期望结果:成功
+INFO:root:实际结果：{'code': 1, 'message': '成功', 'response': {'id': None, 'userUuid': None, 'userName': 'student1', 'password': None, 'realName': None, 'age': None, 'sex': None, 'birthDay': None, 'userLevel': None, 'phone': None, 'role': None, 'status': None, 'imagePath': None, 'createTime': None, 'modifyTime': None, 'lastActiveTime': None, 'deleted': None, 'wxOpenId': None}}
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+INFO:root:测试用例：reg_ok
+INFO:root:url:http://127.0.0.1:8000/api/student/user/register
+INFO:root:请求参数：{"userName": "student", "password": "123456", "userLevel": 6}
+INFO:root:期望结果:{"code":1,"message":"成功","response":null}
+INFO:root:实际结果：{'code': 1, 'message': '成功', 'response': None}
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:(341, '47819ff8-9a60-4301-8328-bb6c366e08b7', 'student', 'VyBYZIWCrI8A3gb9RRvSmKIwUwvl3OOKUX7v/aQ4pmR18UtnW5bkSXvJMm7bu9M2WE9WnfOmA1ypyr5kFPcrvifmXN6jretMAxRcQP1JS1kprxiQ3VKOHDqwJaVGfvfy970tTYTkHbtB+8clZ07QZ0scuwj+iBNARq8L2TpvyyM=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 5, 57), None, datetime.datetime(2024, 5, 11, 16, 5, 57), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student'
+INFO:root:====开始测试====
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+INFO:root:测试用例：login_err2
+INFO:root:url:http://127.0.0.1:8000/api/user/login
+INFO:root:请求参数：{"userName": "", "password": "123456", "remember": false}
+INFO:root:期望结果:用户名或密码错误
+INFO:root:实际结果：{'code': 402, 'message': '用户名或密码错误', 'response': None}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+INFO:root:测试用例：login_err1
+INFO:root:url:http://127.0.0.1:8000/api/user/login
+INFO:root:请求参数：{"userName": "studen", "password": "123456", "remember": false}
+INFO:root:期望结果:用户名或密码错误
+INFO:root:实际结果：{'code': 402, 'message': '用户名或密码错误', 'response': None}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 196
+INFO:root:测试用例：login_ok
+INFO:root:url:http://127.0.0.1:8000/api/user/login
+INFO:root:请求参数：{"userName": "student1", "password": "123456", "remember": false}
+INFO:root:期望结果:成功
+INFO:root:实际结果：{'code': 1, 'message': '成功', 'response': {'id': None, 'userUuid': None, 'userName': 'student1', 'password': None, 'realName': None, 'age': None, 'sex': None, 'birthDay': None, 'userLevel': None, 'phone': None, 'role': None, 'status': None, 'imagePath': None, 'createTime': None, 'modifyTime': None, 'lastActiveTime': None, 'deleted': None, 'wxOpenId': None}}
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+INFO:root:测试用例：reg_ok
+INFO:root:url:http://127.0.0.1:8000/api/student/user/register
+INFO:root:请求参数：{"userName": "student", "password": "123456", "userLevel": 6}
+INFO:root:期望结果:{"code":1,"message":"成功","response":null}
+INFO:root:实际结果：{'code': 1, 'message': '成功', 'response': None}
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:(342, '6ee88682-701c-4f5b-b006-ff881d39d263', 'student', 'WZCk0/fnci9IA7ho+CCCEZVIOv1m6pAIsj43YkjTtwkApxhrGRvAcFvUeoK49sbkxeiRDrQPJwXcplJij+qpRc80gfk+xKmEfCIiwInRvOCkpb4QpdoEEJ5r389VF31t+THWLJSFH05tug19ylCZoXpamE8n6FSG1eZxEyQBxIE=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 5, 58), None, datetime.datetime(2024, 5, 11, 16, 5, 58), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(303, '9959f853-29df-4785-94fa-f421206a688a', 'student1', 'HFonr7hNaIzwnFehl9Rm61xFZhoW531xOXcZC3Yrn3Zyma18zueADJcOMkeeTGKtwCiASOFsVTf1Q2RfjdjEMMmS+uWmYE/mFESp3xeQGuRd6In4IHLHHhZjUgd1oysRWK4smB4RH527Ez36N32epSpfa+QRPmmBckvooNAdBe4=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 10, 11, 1, 7), None, datetime.datetime(2024, 5, 10, 11, 1, 7), b'\x00', None)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+INFO:root:测试用例：reg_err
+INFO:root:url:http://127.0.0.1:8000/api/student/user/register
+INFO:root:请求参数：{"userName": "student1", "password": "123456", "userLevel": 6}
+INFO:root:期望结果:{"code":2,"message":"用户已存在","response":null}
+INFO:root:实际结果：{'code': 2, 'message': '用户已存在', 'response': None}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='student'
+DEBUG:root:select * from t_user where user_name ='student'
+DEBUG:root:None
+DEBUG:root:insert into t_user(user_name,password)values ('student','123456').
+ERROR:root:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1")
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(303, '9959f853-29df-4785-94fa-f421206a688a', 'student1', 'HFonr7hNaIzwnFehl9Rm61xFZhoW531xOXcZC3Yrn3Zyma18zueADJcOMkeeTGKtwCiASOFsVTf1Q2RfjdjEMMmS+uWmYE/mFESp3xeQGuRd6In4IHLHHhZjUgd1oysRWK4smB4RH527Ez36N32epSpfa+QRPmmBckvooNAdBe4=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 10, 11, 1, 7), None, datetime.datetime(2024, 5, 10, 11, 1, 7), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name ='student1'
+DEBUG:root:(344, 'd3cdf8c2-688c-42cc-9ac0-4648dcb561df', 'student1', 'MCWaM3le3WeRkdEsq/gueudYRSRTpcT32zN+1gtIvet91rK9PgPnT9wnJvOgezoMfx8a6Ox1Qg71nvU7vWksv4atZp7QEgwyVYK3oqdo2RxENmIdWDGUxhZUpHFLRhwqKs1ZbBG2M59ulQ4XaLFF2gaDNZ327ASExY12YUx6/hY=', None, None, None, None, 6, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 5, 59), None, datetime.datetime(2024, 5, 11, 16, 5, 59), b'\x00', None)
+DEBUG:root:delete from t_user where user_name='student1'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+INFO:root:====测试结束====
+DEBUG:root:邮件发送成功
+INFO:root:*****发送邮件*****
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+INFO:root:测试用例：login_ok
+INFO:root:url:http://127.0.0.1:8000/api/user/login
+INFO:root:请求参数：{"userName": "student1", "password": "123456", "remember": false}
+INFO:root:期望结果:成功
+INFO:root:实际结果：{'code': 402, 'message': '用户名或密码错误', 'response': None}
